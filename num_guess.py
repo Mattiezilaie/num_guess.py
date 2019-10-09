@@ -5,7 +5,8 @@
 # too high or low. Then program will print how many guesses it took
 
 num_guesses = 0
-number = int(input('Enter the number for the player to guess.'))
+print('Enter the number for the player to guess.')
+number = int(input())
 print(number)
 print('Enter your guess.')
 guess = int()
