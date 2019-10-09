@@ -11,6 +11,7 @@ guess = int()
 
 while guess != number:
     guess = input('Enter your guess.')
+    print(guess)
     guess = int(guess)
     num_guesses = num_guesses +1
 
