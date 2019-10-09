@@ -7,11 +7,10 @@
 num_guesses = 0
 number = int(input('Enter the number for the player to guess.'))
 print(number)
-print('Enter your guess.')
 guess = int()
 
 while guess != number:
-    guess = input()
+    guess = input('Enter your guess.')
     guess = int(guess)
     num_guesses = num_guesses +1
 
